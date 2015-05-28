@@ -1,1 +1,1 @@
-node tk/server/server.js
+web: node tk/server/server.js
