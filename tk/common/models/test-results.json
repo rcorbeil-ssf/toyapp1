@@ -1,0 +1,39 @@
+{
+  "name": "Test_Results",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "User_ID": {
+      "type": "string",
+      "required": true
+    },
+    "Test_ID": {
+      "type": "number",
+      "required": true
+    },
+    "Competing": {
+      "type": "number",
+      "required": true
+    },
+    "Collaborating": {
+      "type": "number",
+      "required": true
+    },
+    "Compromising": {
+      "type": "number",
+      "required": true
+    },
+    "Avoiding": {
+      "type": "number",
+      "required": true
+    },
+    "Accommodating": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
