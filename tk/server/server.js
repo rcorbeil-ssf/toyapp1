@@ -1,6 +1,9 @@
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://heroku_app37281512:bmgn3d4ovohl1trmj19ra7rn2i@ds037252.mongolab.com:37252/heroku_app37281512');
+
 var app = module.exports = loopback();
 
 app.start = function() {
