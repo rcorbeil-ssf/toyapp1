@@ -11,7 +11,7 @@ var boot = require('loopback-boot');
  * A Mongoose script connecting to a MongoDB database given a MongoDB Connection URI.
  * MongoLab blog post on Mongoose: http://blog.mongolab.com/2014/04/mongodb-driver-mongoose/
  */
-var mongoose = require('mongoose');
+var mongoose = require('../node_modules/mongoose');
 var uriUtil = require('mongodb-uri');
  
 /* 
