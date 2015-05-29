@@ -2,9 +2,6 @@
   "name": "tk",
   "version": "1.0.0",
   "main": "server/server.js",
-  "engines": {
-    "node": "0.10.x"
-  },
   "scripts": {
     "pretest": "jshint ."
   },
@@ -15,7 +12,9 @@
     "loopback": "^2.14.0",
     "loopback-boot": "^2.6.5",
     "loopback-datasource-juggler": "^2.19.0",
-    "serve-favicon": "^2.0.1"
+    "serve-favicon": "^2.0.1",
+    "mongodb": "*",
+    "mongoose": "*"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
