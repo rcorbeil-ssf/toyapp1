@@ -1,21 +1,17 @@
 {
-  "name": "Questions",
-  "base": "PersistedModel",
+  "name": "testtaker",
+  "base": "User",
   "idInjection": true,
   "properties": {
-    "Question_Number": {
-      "type": "number",
-      "required": true
-    },
-    "Answer_ID": {
+    "username": {
       "type": "string",
       "required": true
     },
-    "Text": {
+    "company": {
       "type": "string",
       "required": true
     },
-    "Style": {
+    "organization": {
       "type": "string",
       "required": true
     }
@@ -24,8 +20,8 @@
   "relations": {},
   "acls": [
     {
-      "accessType": "READ",
-      "principalType": "ROLE",
+      "accessType": "ALL",
+      "principalType": "USER",
       "principalId": "$authenticated",
       "permission": "ALLOW"
     }

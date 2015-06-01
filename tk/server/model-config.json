@@ -33,5 +33,9 @@
   "Test_Results": {
     "dataSource": "db",
     "public": true
+  },
+  "testtaker": {
+    "dataSource": "db",
+    "public": true
   }
 }
