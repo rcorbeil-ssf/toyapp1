@@ -20,12 +20,6 @@
   "relations": {},
   "acls": [
     {
-      "accessType": "ALL",
-      "principalType": "USER",
-      "principalId": "$authenticated",
-      "permission": "ALLOW"
-    },
-    {
       "accessType": "*",
       "principalType": "ROLE",
       "principalId": "$everyone",
