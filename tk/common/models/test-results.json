@@ -1,5 +1,5 @@
 {
-  "name": "Test_Results",
+  "name": "TestResults",
   "base": "PersistedModel",
   "idInjection": true,
   "properties": {
@@ -30,6 +30,10 @@
     "Accommodating": {
       "type": "number",
       "required": true
+    },
+    "id": {
+      "type": "number",
+      "id": true
     }
   },
   "validations": [],
