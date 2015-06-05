@@ -30,7 +30,7 @@
     "dataSource": "db",
     "public": true
   },
-  "Test_Results": {
+  "TestResults": {
     "dataSource": "db",
     "public": true
   },
