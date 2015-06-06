@@ -34,7 +34,7 @@
     "dataSource": "db",
     "public": true
   },
-  "testtaker": {
+  "SSFUser": {
     "dataSource": "db",
     "public": true
   }
