@@ -29,7 +29,8 @@
     },
     "id": {
       "type": "number",
-      "id": true
+      "id": true,
+      "generated": true
     },
     "createDate": {
       "type": "date",
