@@ -30,6 +30,10 @@
     "id": {
       "type": "number",
       "id": true
+    },
+    "createDate": {
+      "type": "date",
+      "required": true
     }
   },
   "validations": [],
