@@ -2,6 +2,6 @@
   "db": {
     "name": "db",
     "connector": "mongodb",
-    "url": "mongodb://funky:funky@ds043952.mongolab.com:43952/heroku_app37281512"
+    "url": "mongodb://funky:funky@ds061701.mongolab.com:61701/heroku_pl0f70mn"
   }
 }
